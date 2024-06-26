@@ -1,18 +1,23 @@
+/**
+ * This program calculates and displays the area and perimeter of a rectangle
+ * with predefined dimensions.
+ */
 public class Practice_1_3 {
+    
     public static void main(String[] args) {
-        // Define rectangle dimensions
-        int width = 4;
-        int height = 8;
+        // Constants for the dimensions of the rectangle
+        int width = 4;   // Width of the rectangle
+        int height = 8;  // Height of the rectangle
         
         // Calculate area and perimeter
-        int area = width * height;
-        int perimeter = 2 * (width + height);
+        int area = width * height;                         // Calculating area
+        int perimeter = 2 * (width + height);              // Calculating perimeter
         
-        // Display results with proper labels
+        // Displaying results with appropriate labels
         System.out.println("Rectangle Dimensions:");
-        System.out.println("Width = " + width);
-        System.out.println("Height = " + height);
-        System.out.println("Area = " + area);
-        System.out.println("Perimeter = " + perimeter);
+        System.out.println("Width: " + width);
+        System.out.println("Height: " + height);
+        System.out.println("Area: " + area);
+        System.out.println("Perimeter: " + perimeter);
     }
 }
