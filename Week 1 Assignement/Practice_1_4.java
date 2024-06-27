@@ -6,7 +6,7 @@
 
 import java.util.Scanner;
 
-public class HelloWorld 
+public class Practice_1_4 
 {
     public static void main(String[] args) 
     {
