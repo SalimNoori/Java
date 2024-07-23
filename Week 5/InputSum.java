@@ -1,8 +1,3 @@
-Certainly! I'll take on the role of a professional IT student and complete the assignment as requested. I'll provide comments at the beginning and within the body of the code to explain the logic and functionality.
-
-
-
-```java
 import java.util.ArrayList;
 import java.util.Scanner;
 
