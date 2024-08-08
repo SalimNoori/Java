@@ -1,40 +1,35 @@
-/**
- * The Book class represents a book with a title and number of pages.
- * It provides getter and setter methods for the title and pages fields.
- */
 public class Book {
     private String title;
     private int pages;
 
-    /**
-     * Retrieves the title of the book.
-     * @return the title of the book
-     */
+    // Getter and setter methods
     public String getTitle() {
         return title;
     }
 
-    /**
-     * Sets the title of the book.
-     * @param title the new title of the book
-     */
     public void setTitle(String title) {
         this.title = title;
     }
 
-    /**
-     * Retrieves the number of pages in the book.
-     * @return the number of pages in the book
-     */
     public int getPages() {
         return pages;
     }
 
-    /**
-     * Sets the number of pages in the book.
-     * @param pages the new number of pages in the book
-     */
     public void setPages(int pages) {
         this.pages = pages;
+    }
+
+    // Main method for testing
+    public static void main(String[] args) {
+        // Create an instance of Book
+        Book myBook = new Book();
+        
+        // Set title and pages
+        myBook.setTitle("Java Programming");
+        myBook.setPages(350);
+        
+        // Retrieve and display the title and pages
+        System.out.println("Title: " + myBook.getTitle());
+        System.out.println("Pages: " + myBook.getPages());
     }
 }
