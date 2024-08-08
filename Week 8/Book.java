@@ -26,7 +26,7 @@ public class Book {
         
         // Set title and pages
         myBook.setTitle("Java Programming");
-        myBook.setPages(350);
+        myBook.setPages(450);
         
         // Retrieve and display the title and pages
         System.out.println("Title: " + myBook.getTitle());
